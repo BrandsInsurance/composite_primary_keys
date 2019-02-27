@@ -3,6 +3,7 @@ module CompositePrimaryKeys
     MAJOR = 11
     MINOR = 1
     TINY  = 0
-    STRING = [MAJOR, MINOR, TINY].join('.')
+    PRE_RELEASE = 'beta1'
+    STRING = [MAJOR, MINOR, TINY, PRE_RELEASE].compact.join('.')
   end
 end

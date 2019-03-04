@@ -38,8 +38,8 @@ Gem::Specification.new do |s|
   #s.add_development_dependency('ibm_db')
 
   # Sql server
-  #s.add_development_dependency('tiny_tds')
-  #s.add_development_dependency('activerecord-sqlserver-adapter')
+  s.add_development_dependency('tiny_tds')
+  s.add_development_dependency('activerecord-sqlserver-adapter')
 
   # Oracle
   # s.add_development_dependency('ruby-oci8')
